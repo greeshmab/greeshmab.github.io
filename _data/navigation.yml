@@ -1,0 +1,19 @@
+# Site navigation links
+
+- title: About
+  url: /about/
+
+- title: CV
+  url: /cv/cv.pdf
+
+- title: Blog
+  url: /posts/
+
+- title: Categories
+  url: /posts/category-wise/
+
+- title: Projects
+  url: /projects/
+
+- title: Almanac
+  url: /almanac/
