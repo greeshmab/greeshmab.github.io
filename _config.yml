@@ -1,0 +1,55 @@
+# Site wide configuration
+
+title:            Greeshma Balabhadra
+locale:           en_US
+url:              //greeshmab.github.io
+
+# Jekyll configuration
+
+permalink:   /:categories/:title/
+markdown:    kramdown
+highlighter: rouge
+sass:
+  sass_dir: _sass
+  style: compressed
+gems:
+  - jekyll-sitemap
+
+kramdown:
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  enable_coderay: false
+
+# Octopress
+
+# Default extensions
+post_ext: md
+page_ext: md
+
+# Found in _templates/
+post_layout: post
+page_layout: page
+
+# Format titles with titlecase?
+titlecase: true
+
+# Site owner
+owner:
+  name: Greeshma Balabhadra
+  avatar: bio-photo.jpg
+  bio: 
+  email: greeshmabalabadra@gmail.com
+  disqus-shortname: greeshmab
+  github: greeshmab
+  google:
+    analytics: UA-159382205-1
+    verify:
+    ad-client:
+    ad-slot:
+  bing-verify:
+  linkedin: greeshmab
+
+include: [".htaccess"]
+exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "Gemfile", "Gemfile.lock", "LICENSE", "README.md"]
