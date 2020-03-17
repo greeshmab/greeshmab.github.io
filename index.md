@@ -1,9 +1,9 @@
 ---
 layout: home
-excerpt: "Srijan R Shetty : Eccentric, Scribbler, Hacker"
-tags: [Blog, tech, poems, rants, hacks]
+excerpt: "Greeshma Balabhadra"
+tags: [Blog, tech, math, musings]
 image:
-  feature: marvante.jpg
-  credit: Srijan R Shetty, Marvante Beach
-  creditlink: http://srijanshetty.in/
+  feature: home.jpg
+  credit: Greeshma
+  creditlink: http://greeshmab.github.io/
 ---
