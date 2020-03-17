@@ -9,7 +9,8 @@ image:
   credit: StonyBrook beach
 ---
 
-I'm Greeshma, an undergraduate from the <a href="http://cse.iitk.ac.in">Department of Computer
-Science and Engineering</a>,<a href="http://iitk.ac.in">Indian Institute of Technology, Kanpur</a>. I'm humbled
-that you consider my introduction worthy of your valuable time.<br/><br/>
+I am a PhD student at Stony Brook University in [Applied Mathematics & Statistics](https://www.stonybrook.edu/commcms/ams/) focusing in Finance. I achieved my undergraduate degree from the [Indian Institute of Technology, Guwahati](http://www.iitg.ac.in/) in Mathematics and Computing and Post Graduate Diploma in Governance from the University of Hyderabad. I am interested in solving research problems in Applied Mathematics mostly centering on Finance and Technology.
 
+In my free time, I love to play Basketball or binge-watch shows. I recently started pursuing my interest in painting and photography.
+
+My research interests are focused on Mathematical Quant models, Machine learning/AI tools and their applications in finance.
