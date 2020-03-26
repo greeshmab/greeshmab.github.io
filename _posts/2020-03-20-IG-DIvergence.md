@@ -25,7 +25,7 @@ D[x:y] where x,y denote coordinates of P and Q respectively. Divergence has the 
 
 Divergence need not be symmetric with respect to two points. So it's not a distance. It need not follow triangular inequality either. 
 
-#### Bregman divergence
+### Bregman divergence
 
 Bregman divergence or Bregman distance is a measure of distance between two points, defined in terms of a strictly convex function they form an important class of [divergences](https://en.wikipedia.org/wiki/Divergence_(statistics)). When the points are interpreted as probability distributions – notably as either values of the parameter of a parametric model or as a data set of observed values – the resulting distance is a [statistical distance](https://en.wikipedia.org/wiki/Statistical_distance). The most basic Bregman divergence is the squared Euclidean distance.
 
