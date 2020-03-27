@@ -27,19 +27,3 @@ sitemap: false
 @import "vendor/magnific-popup/magnific-popup";
 //@import "vendor/google/fonts";
 @import "print";
-
-html {
-  font-size: 18px; // change to whatever
-
-  @include breakpoint($medium) {
-    font-size: 18px; // change to whatever
-  }
-
-  @include breakpoint($large) {
-    font-size: 20px; // change to whatever
-  }
-
-  @include breakpoint($x-large) {
-    font-size: 22px; // change to whatever
-  }
-}
