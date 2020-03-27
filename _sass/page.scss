@@ -17,7 +17,7 @@ body {
 	padding: 2em 0 1em;
 	font-family: $heading-font;
 	font-weight: 700;
-	font-size: 26px;
+	font-size: $type-size-4;
 	text-transform: uppercase;
 	@include clearfix;
 }
@@ -515,6 +515,7 @@ $button-size: 1.5rem;
 	}
 	header {
 		background: lighten($black, 10);
+		font-size: $type-size-4;
 	}
 	h3 {
 		margin: 0;
