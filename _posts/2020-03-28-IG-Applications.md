@@ -24,7 +24,7 @@ date: 2020-03-28
 -   EM algorithm, Semiparametric estimation, Robust estimation
     
 ###  Control Theory and Time Series Analysis
--   Probability distribution - manifold systems geometric structure of the system can be studied
+-   Probability distribution (manifold systems geometric structure of the system)
     
 ### Machine Learning
 -   Clustering Based on Divergence
@@ -44,4 +44,5 @@ date: 2020-03-28
     
 
 Sparse Signal Analysis
+
 Independent Component Analysis
