@@ -30,3 +30,9 @@ Divergence need not be symmetric with respect to two points. So it's not a dista
 Bregman divergence or Bregman distance is a measure of distance between two points, defined in terms of a strictly convex function they form an important class of [divergences](https://en.wikipedia.org/wiki/Divergence_(statistics)). When the points are interpreted as probability distributions – notably as either values of the parameter of a parametric model or as a data set of observed values – the resulting distance is a [statistical distance](https://en.wikipedia.org/wiki/Statistical_distance). The most basic Bregman divergence is the squared Euclidean distance.
 
 Bregman divergences are similar to metrics, but satisfy neither the triangle inequality (ever) nor symmetry (in general). However, they satisfy a generalization of the Pythagorean theorem, and in information geometry the corresponding [statistical manifold](https://en.wikipedia.org/wiki/Statistical_manifold) is interpreted as a (dually) [flat manifold](https://en.wikipedia.org/wiki/Flat_manifold). This allows many techniques of optimization theory to be generalized to Bregman divergences, geometrically as generalizations of least squares.
+
+
+#### References
+1. Information geometry in optimization, machine learning and statistical inference by Shun-ichi AMARI
+2. Differential Geometry derived from Divergence Functions:Information Geometry Approach - Amari
+
