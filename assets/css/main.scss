@@ -11,9 +11,9 @@ sitemap: false
 */
 
 // Partials
+@import "minimal-mistakes";
 @import "variables";
 @import "grid";
-@import "mixins";
 @import "normalize";
 @import "site";
 @import "typography";
