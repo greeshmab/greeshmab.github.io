@@ -16,7 +16,7 @@ body {
 	@include container;
 	padding: 2em 0 1em;
 	font-family: $heading-font;
-	font-size: $heading-font-size;
+	font-size: 20px;
 	font-weight: 700;
 	text-transform: uppercase;
 	@include clearfix;
@@ -24,9 +24,9 @@ body {
 
 /* Site name */
 .site-name {
-@include grid(12,10);
-	@include prefix(12,1);
-	@include suffix(12,1);
+@include grid(12,11);
+	@include prefix(12,0.5);
+	@include suffix(12,0.5);
 	margin-bottom: 1em;
 	float: none;
 	display: block;
@@ -45,9 +45,9 @@ body {
 
 /* Top navigation links */
 .top-navigation {
-	@include grid(12,10);
-	@include prefix(12,1);
-	@include suffix(12,1);
+	@include grid(12,11);
+	@include prefix(12,0.5);
+	@include suffix(12,0.5);
 	margin-bottom: 1em;
 	float: none;
 	display: block;
@@ -229,11 +229,10 @@ $button-size: 1.5rem;
 	}
 	.post,
 	.page {
-		width: calc(100% - #{$right-sidebar-width-narrow});
 		@include container;
-		@include grid(12,10);
-		@include prefix(12,1);
-		@include suffix(12,1);
+		@include grid(12,11);
+		@include prefix(12,0.5);
+		@include suffix(12,0.5);
 		margin-bottom: 2em;
 		@media #{$small} {
 			@include grid(12,8);
