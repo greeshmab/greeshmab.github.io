@@ -229,6 +229,7 @@ $button-size: 1.5rem;
 	}
 	.post,
 	.page {
+		width: calc(100% - #{$right-sidebar-width-narrow});
 		@include container;
 		@include grid(12,10);
 		@include prefix(12,1);
