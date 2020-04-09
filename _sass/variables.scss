@@ -189,14 +189,14 @@ $white          : #fff;
 $black          : #111;
 $accentcolor    : $black;
 
-/* buttons 
+/* buttons */
 $primary			: $black;
 $success			: #5cb85c;
 $warning			: #dd8338;
 $danger				: #C64537;
-$info				  : #308cbc;*/
+$info				  : #308cbc;
 
-/* brands 
+/* brands */
 $facebook-color     : #3b5998;
 $flickr-color       : #ff0084;
 $foursquare-color   : #0cbadf;
@@ -209,14 +209,14 @@ $tumblr-color       : #2c4762;
 $twitter-color      : #55acee;
 $vimeo-color        : #1ab7ea;
 $youtube-color      : #ff3333;
-*/
-/* links 
+
+/* links */
 $linkcolor 		    : #343434;
 $link-color       : $linkcolor;
 $linkcolorhover 	: darken($linkcolor, 10);
 $linkcolorvisited : lighten($linkcolorhover, 20);
 $linkcolorfocus 	: darken($linkcolorvisited, 10);
-*/
+
 
 /*
    Breakpoints
