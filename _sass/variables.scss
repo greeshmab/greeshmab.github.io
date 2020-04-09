@@ -137,17 +137,6 @@ $base0e: #c792ea !default;
 $base0f: #ff5370 !default;
 
 /*
-   Breakpoints
-   ========================================================================== */
-
-$small: 600px !default;
-$medium: 768px !default;
-$medium-wide: 900px !default;
-$large: 1024px !default;
-$x-large: 1280px !default;
-$max-width: $x-large !default;
-
-/*
    Grid
    ========================================================================== */
 
@@ -173,7 +162,7 @@ $intro-transition: intro 0.3s both !default;
 
 /*
    Typography
-   ========================================================================== */
+   ========================================================================== 
 
 $doc-font-size: 18;
 $doc-line-height: 28;
@@ -186,7 +175,7 @@ $alt-font: $base-font;
 
 /*
    Colors
-   ========================================================================== */
+   ========================================================================== 
 
 $bodycolor      : #fff;
 $body-color     : $bodycolor;
@@ -198,16 +187,16 @@ $compcolor 		  : spin($basecolor, 180);
 $bordercolor    : $basecolor;
 $white          : #fff;
 $black          : #111;
-$accentcolor    : $black;
+$accentcolor    : $black;*/
 
-/* buttons */
+/* buttons 
 $primary			: $black;
 $success			: #5cb85c;
 $warning			: #dd8338;
 $danger				: #C64537;
-$info				  : #308cbc;
+$info				  : #308cbc;*/
 
-/* brands */
+/* brands 
 $facebook-color     : #3b5998;
 $flickr-color       : #ff0084;
 $foursquare-color   : #0cbadf;
@@ -220,13 +209,14 @@ $tumblr-color       : #2c4762;
 $twitter-color      : #55acee;
 $vimeo-color        : #1ab7ea;
 $youtube-color      : #ff3333;
-
-/* links */
+*/
+/* links 
 $linkcolor 		    : #343434;
 $link-color       : $linkcolor;
 $linkcolorhover 	: darken($linkcolor, 10);
 $linkcolorvisited : lighten($linkcolorhover, 20);
 $linkcolorfocus 	: darken($linkcolorvisited, 10);
+*/
 
 /*
    Breakpoints
@@ -241,6 +231,7 @@ $x-large          : "only screen and (min-width: 86.375em)";
 
 /* 
 Margins 
----------------------------------------------------*/
+---------------------------------------------------
 
 $right-sidebar-width-narrow   :"20px";
+*/
