@@ -15,7 +15,6 @@ body {
 .navigation-wrapper {
 	@include container;
 	padding: 2em 0 1em;
-	width: 250%;
 	font-family: $heading-font;
 	font-weight: 700;
 	text-transform: uppercase;
@@ -28,6 +27,7 @@ body {
 	@include prefix(12,1);
 	@include suffix(12,1);
 	margin-bottom: 1em;
+	font-size: 1.33rem;
 	float: none;
 	display: block;
 	@include font-rem(24);
@@ -68,6 +68,7 @@ body {
 	li {
 		display: block;
 		list-style-type: none;
+		font-size: 1.33rem;
 		border-bottom: 1px solid lighten($black,80);
 		border-bottom: 1px solid fade($black,10);
 		@include font-rem(16);
@@ -441,6 +442,7 @@ $button-size: 3rem;
         h3 {
             margin-top: 10px;
             margin-bottom: 10px;
+	    font-size: 1.7rem;
         }
         p {
             margin-bottom: 20px;
