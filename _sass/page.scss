@@ -15,6 +15,7 @@ body {
 .navigation-wrapper {
 	@include container;
 	padding: 2em 0 1em;
+	width: 250%;
 	font-family: $heading-font;
 	font-weight: 700;
 	text-transform: uppercase;
@@ -403,6 +404,7 @@ $button-size: 3rem;
     display: block;
     margin-bottom: 5px;
     @include font-rem(14);
+    font-size: 1rem;
     color: $black;
     &:visited {
         color: $black;
