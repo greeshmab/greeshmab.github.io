@@ -47,6 +47,24 @@ Since it's an asymmetric measure, it can not be considered as a statistical meas
 This is also a special case of Bregman divergences.
 The interpretation of the KL divergence depends on the applications. In Machine learning it is the information gain when distribution P is used instead of Q. In Information theory its the relative entropy of P with respect to Q. In Statistics, its gained by revising one's beliefs from the prior probability distribution P to posterior probability distribution Q. More details can be found in [KL-divergence](https://en.wikipedia.org/wiki/Kullback%E2%80%93Leibler_divergence).
 
+#### Total variation distance
+Given two probability distributions P, Q, a natural way of defining distance between them is to take $l_1$ distance between the probability vectors :
+			${\bigl \|}{P}-{Q}{\bigr \|}_{1} =\sum _{i=1}^{k}{|{p_{i}-q_{i}}}|$
+The total variation distance, denoted by $\Delta(P, Q)$ is half the above quantity. For a given sigma algebra $\mathcal {F}$ It can be defined as 
+			$\delta (P,Q)=\sup _{A\in {\mathcal {F}}}\left|P(A)-Q(A)\right|.$
+Total Variation distance is a statistical measure and also called as statistical distance.
+#### Hellinger Distance
+Hellinger distance is the measure to quantify similarity between two probability distributions P and Q. It can be defined in terms of eucliden norm as 
+$H(P,Q)={\frac {1}{\sqrt {2}}}\;{\bigl \|}{\sqrt {P}}-{\sqrt {Q}}{\bigr \|}_{2}$
+
+The Hellinger distance and total variation distance can be related as : 
+$H^{2}(P,Q)\leq \delta (P,Q)\leq {\sqrt {2}}H(P,Q)\,$
+
+The Hellinger distance is a metric satisfying triangle inequality. The $\sqrt {2}$ in the definition is to ensure that $h(P, Q) ≤ 1$ for all probability distributions. It is closely related to a quantity known as Fidelity or the [Bhattacharya coefficient](https://en.wikipedia.org/wiki/Bhattacharyya_distance) of two probability distributions $F(P, Q) = \sum _{i=1}^{k}({\sqrt {p_{i}q_{i}}})$ by the relation 
+$H^{2}(P,Q)=1-F(P, Q)$
+
+
+
 #### References
 1. Information geometry in optimization, machine learning and statistical inference by Shun-ichi AMARI
 2. Differential Geometry derived from Divergence Functions:Information Geometry Approach - Amari
