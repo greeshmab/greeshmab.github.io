@@ -10,7 +10,7 @@ image:
 comments: true
 date: 2020-03-20
 ---
-A divergence Function D[p:q] between two points P, Q on a manifold plays a major role in information geometry. Its applications range from Machine Learning, Vision, Optimization, Information theory and Statistics. 
+A Divergence function D[p:q] between two points P, Q on a manifold plays a major role in information geometry. Its applications range from Machine Learning, Vision, Optimization, Information theory and Statistics. 
 
 Let's take a simple example of the Manifold of Gaussian Distribution. A one dimensional Gaussian distribution with mean $\mu$, and sd $\sigma$, is represented by probability density function: 
 
@@ -39,12 +39,12 @@ $D_{f}(P\parallel Q)\equiv \int _{{\Omega }}f\left({\frac  {dP}{dQ}}\right)\,dQ.
 
 The intuition is to understand divergence as an average of two probability distribution weighted by function f. f-divergences are widely used and have applications in ML, AI, statistics and optimization techniques. Some of the majorly used divergences are:
 
-####  Kullback–Leibler divergence:
+####  Kullback–Leibler divergence
 K-L Divergence is a measure that explains how one probability distribution P is different from another distribution Q. Its is special case of f-divergences with function $f(t) = tlog(t)$
-${\displaystyle D_{\text{KL}}(P\parallel Q)=\sum _{x\in {\mathcal {X}}}P(x)\log \left({\frac {P(x)}{Q(x)}}\right).}%$
+$D_{\text{KL}}(P\parallel Q)=\sum _{x\in {\mathcal {X}}}P(x)\log \left({\frac {P(x)}{Q(x)}}\right)$
 
-Since it's an asymmetric measure, it can not be considered as a statistical measure of spread. It doesn’t satisfy triangle inequality. 
-This is also a special case of Bregman divergences.
+Since it's an asymmetric measure, it can not be considered as a statistical measure of spread. It doesn’t satisfy triangle inequality. This is also a special case of Bregman divergences.
+
 The interpretation of the KL divergence depends on the applications. In Machine learning it is the information gain when distribution P is used instead of Q. In Information theory its the relative entropy of P with respect to Q. In Statistics, its gained by revising one's beliefs from the prior probability distribution P to posterior probability distribution Q. More details can be found in [KL-divergence](https://en.wikipedia.org/wiki/Kullback%E2%80%93Leibler_divergence).
 
 #### Total variation distance
@@ -53,6 +53,7 @@ Given two probability distributions P, Q, a natural way of defining distance bet
 The total variation distance, denoted by $\Delta(P, Q)$ is half the above quantity. For a given sigma algebra $\mathcal {F}$ It can be defined as 
 			$\delta (P,Q)=\sup _{A\in {\mathcal {F}}}\left|P(A)-Q(A)\right|.$
 Total Variation distance is a statistical measure and also called as statistical distance.
+
 #### Hellinger Distance
 Hellinger distance is the measure to quantify similarity between two probability distributions P and Q. It can be defined in terms of eucliden norm as 
 $H(P,Q)={\frac {1}{\sqrt {2}}}\;{\bigl \|}{\sqrt {P}}-{\sqrt {Q}}{\bigr \|}_{2}$
