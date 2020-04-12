@@ -66,7 +66,7 @@ $H^{2}(P,Q)=1-F(P, Q)$
 
 
 
-#### References
+### References
 1. Information geometry in optimization, machine learning and statistical inference by Shun-ichi AMARI
 2. Differential Geometry derived from Divergence Functions:Information Geometry Approach - Amari
 
